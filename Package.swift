@@ -28,8 +28,7 @@ let package = Package(
         ),
         .testTarget(
             name: "NimbleTests", 
-            dependencies: ["Nimble"], 
-            exclude: ["objc"]
+            dependencies: ["Nimble"]
         ),
     ],
     swiftLanguageVersions: [.v5]
